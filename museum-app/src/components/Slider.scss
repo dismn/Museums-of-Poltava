@@ -1,0 +1,36 @@
+.slider {
+    height: 505px;
+    background-color: #FFF0D2;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+
+.container {
+    max-width: 800px;
+    height: 505px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.slide-images {
+    width: 927px;
+    height: 505px;
+}
+
+
+@media (max-width: 800px) {
+    .container {
+        max-width: 500px;
+    }
+
+    .slider {
+        display: none;
+    }
+  
+}
+

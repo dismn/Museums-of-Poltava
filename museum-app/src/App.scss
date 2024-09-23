@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+$bg-color: #FFFBF7;
+$main-font: "Jost", sans-serif;
+
+body{
+    background-color: $bg-color;
+    font-family: $main-font;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    overflow-x: hidden;
+}
